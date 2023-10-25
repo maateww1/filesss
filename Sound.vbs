@@ -5,7 +5,7 @@ Dim oPlayer
 Set oPlayer = CreateObject("WMPlayer.OCX")
 
 ' Play audio
-oPlayer.URL = "Troll.wav"
+oPlayer.URL = "Sound.wav"
 oPlayer.controls.play 
 While oPlayer.playState <> 1 ' 1 = Stopped
   WScript.Sleep 100
