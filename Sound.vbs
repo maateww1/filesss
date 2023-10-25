@@ -5,7 +5,7 @@ Dim oPlayer
 Set oPlayer = CreateObject("WMPlayer.OCX")
 
 ' Play audio
-oPlayer.URL = "Sound.wav"
+oPlayer.URL = "JustDance.wav"
 oPlayer.controls.play 
 While oPlayer.playState <> 1 ' 1 = Stopped
   WScript.Sleep 100
