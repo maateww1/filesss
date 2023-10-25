@@ -1,7 +1,13 @@
 
-do
+
+Dim x
+x=0
+Do While x<100
 Set WshShell = CreateObject("WScript.Shell")
 WshShell.SendKeys(chr(&hAF))
-loop
+x=x+1
+Loop
+
+
 
 
