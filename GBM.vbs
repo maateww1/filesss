@@ -1,17 +1,8 @@
-dim wshShell
-dim sUserName
-
 Set wshShell = WScript.CreateObject("WScript.Shell")
 sUserName = wshShell.ExpandEnvironmentStrings("%USERNAME%")
-
 Set oShell = CreateObject("WScript.Shell")
 Set oFSO = CreateObject("Scripting.FileSystemObject")
-
 sWinDir = oFSO.GetSpecialFolder(0)
-sWallPaper = "%appdata%\poopp.png"
-
-' update in registry
+sWallPaper = "%appdata%\gucci.png"
 oShell.RegWrite "HKCU\Control Panel\Desktop\Wallpaper", sWallPaper
-
-' let the system know about the change
 oShell.Run "%windir%\System32\RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters", 1, True
