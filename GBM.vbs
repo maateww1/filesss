@@ -8,7 +8,7 @@ Set oShell = CreateObject("WScript.Shell")
 Set oFSO = CreateObject("Scripting.FileSystemObject")
 
 sWinDir = oFSO.GetSpecialFolder(0)
-sWallPaper = "C:\Users\s.matthew.kingery\Downloads\poopp.png"
+sWallPaper = "%appdata%\poopp.png"
 
 ' update in registry
 oShell.RegWrite "HKCU\Control Panel\Desktop\Wallpaper", sWallPaper
