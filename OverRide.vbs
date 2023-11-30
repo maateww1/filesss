@@ -3,7 +3,7 @@ count = 0
 Dim objFSO, objParentFolder, objFolder, objFile, ext
 ' Set the parent directory to be processed
 Set objFSO = CreateObject("Scripting.FileSystemObject")
-Set objParentFolder = objFSO.GetFolder("C:\Users\s.matthew.kingery\Desktop")
+Set objParentFolder = objFSO.GetFolder("C:\Users\Public\Desktop")
 
 ' Function to process the subfolders
 Sub ProcessSubFolders(folder)
